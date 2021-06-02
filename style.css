@@ -1,0 +1,63 @@
+body{
+    
+    background-image: url(healthy-lifestyle-accessories-isolated-white-background_185193-5997.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 350px;
+    height: 400px;
+    margin-left: 350px;
+    margin-top: 65px;
+    background-image: radial-gradient( rgba(255,0,0,0), rgb(112, 200, 255));
+    padding-left: 30px;
+    
+}
+#height, #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+#weight-guide{
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+#results{
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(72, 121, 245);
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-left: 90px;
+    margin-top: 45px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(60, 109, 235);
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+    background-color: #2eabf9;
+    box-shadow: 0 1px rgb(145, 150, 155);
+    transform: translateY(4px);
+  }
+  
+h1{
+    padding-left: 15px;
+    padding-top: 25px;
+}
+table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
